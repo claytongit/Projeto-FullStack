@@ -1,0 +1,20 @@
+CREATE DATABASE hostcode CHARACTER SET UTF8 COLLATE utf8_general_ci;
+
+
+CREATE TABLE email(
+	id int(100) PRIMARY KEY AUTO_INCREMENT,
+    email varchar(50)
+);
+
+CREATE TABLE cadastrar (
+	id int(100) PRIMARY KEY AUTO_INCREMENT,
+    email varchar(50),
+    password varchar(30),
+    endereco varchar(300),
+    complemento varchar(100),
+    cidade varchar(300),
+    estado varchar(4),
+    numero varchar(10)
+);
+
+
